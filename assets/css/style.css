@@ -238,6 +238,20 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #1977cc;
 }
 
+#header button{
+  background-color: #1977cc;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  width: 100px;
+  height: 41px;
+  font-size: 14px;
+}
+
+#header button:hover{
+  background-color: #3291e6;
+}
+
 .nav-menu .drop-down ul {
   display: block;
   position: absolute;
@@ -1594,6 +1608,8 @@ section {
   transform: scale(1.1);
 }
 
+
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -1713,13 +1729,14 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
-  background: #1977cc;
-  border: 0;
-  padding: 10px 35px;
-  color: #fff;
-  transition: 0.4s;
+.contact .sendbtn{
+  background-color: #1977cc;
+  color: white;
+  border: none;
   border-radius: 50px;
+  width: 100px;
+  height: 41px;
+  font-size: 14px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
@@ -1899,3 +1916,7 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+
+
+
